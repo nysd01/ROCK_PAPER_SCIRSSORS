@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPC</title>
+    <link rel="stylesheet" type="text/css" href="RPC.css">
+     
+</head>
+<body>
+    <div class="mainblock">
+       <h1 class ="greeting">Welcome to Rock Paper Scirssors</h1>
+        <div class="middleblock">
+            <button class="rock" onclick="
+                userinput = 'rock';
+               
+                 computerchoice ='';
+
+                if(random >= 0 && random < 1/3){
+                   computerchoice = 'rock';    
+                }
+                else if(random >= 1/3 && random < 2/3){
+                   computerchoice = 'paper';
+                }
+                else if(random >= 2/3 && random < 2/3){
+                   computerchoice ='scirssors';
+                }
+                console.log(`you choice: ${userinput}`);
+                console.log(`computer value: ${computerchoice}`);
+                
+                
+                "> 
+                🪨 
+            </button>
+
+            <button class="paper" onclick="
+                userinput = 'paper';
+             
+                computerchoice ='';
+
+                if(random >= 0 && random < 1/3){
+                   computerchoice = 'rock';    
+                }
+                else if(random >= 1/3 && random < 2/3){
+                   computerchoice = 'paper';
+                }
+                else if(random >= 2/3 && random < 2/3){
+                   computerchoice ='scirssors';
+                }
+
+                console.log(`you choice: ${userinput}`);
+                console.log(`computer value: ${computerchoice}`);
+                
+          
+                ">
+                 🧻
+            </button>
+
+            <button class="scirs" onclick="
+                userinput = 'scirssors';
+             
+                 computerchoice ='';
+
+                if(random >= 0 && random < 1/3){
+                   computerchoice = 'rock';  
+                }
+                else if(random >= 1/3 && random < 2/3){
+                   computerchoice = 'paper';
+                }
+                else if(random >= 2/3 && random < 2/3){
+                   computerchoice ='scirssors';
+                }
+
+
+                console.log(`you choice: ${userinput}`);
+                console.log(`computer value: ${computerchoice}`);
+                
+                 
+            
+                ">
+                 ✂
+            </button>
+
+        </div>
+    </div>
+    <script src="RPC.js"></script>
+</body>
+</html>

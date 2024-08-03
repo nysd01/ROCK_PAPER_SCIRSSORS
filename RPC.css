@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(37, 54, 54);
+}
+.mainblock{
+    background-color: rgb(0, 0, 165);
+    height: 200px;
+    padding: 70px;
+    margin-top: 100px;
+    margin-left:100px ;
+    margin-right:100px ;
+    margin-bottom:100px ;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 240, 39, 0.655);
+}
+.middleblock{
+    margin:3px;
+    background-color: rgb(4, 1, 1);
+    height: 130px;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(105, 78, 19, 0.655);
+    
+}
+.paper{
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: gold;
+}
+.rock{
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: gold;
+}
+.scirs{
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    background-color: gold;
+}
